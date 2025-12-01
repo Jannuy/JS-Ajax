@@ -1,0 +1,5 @@
+@use 'sass:color';
+$color-primary: coral;
+body {
+  background: color.scale($color-primary, $lightness: 30%);
+}
